@@ -61,7 +61,7 @@ class RecyclerItemTouchHelper(private val adapter: ToDoAdapter, private val cont
             icon = ContextCompat.getDrawable(context, R.drawable.baseline_edit)
             background = ColorDrawable(ContextCompat.getColor(context, R.color.colorPrimaryDark))
         } else {
-            icon = ContextCompat.getDrawable(context, R.drawable.baseline_delete_24)
+            icon = ContextCompat.getDrawable(context, R.drawable.baseline_delete)
             background = ColorDrawable(ContextCompat.getColor(context, R.color.red))
         }
 
